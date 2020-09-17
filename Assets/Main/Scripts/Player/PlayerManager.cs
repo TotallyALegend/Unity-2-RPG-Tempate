@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿  using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
@@ -18,7 +18,7 @@ public class PlayerManager : MonoBehaviour
     public TextMeshProUGUI goldText;
     public TextMeshProUGUI expText;
     public TextMeshProUGUI playerNameText;
-    public LootTable lt;
+    public LootTable lt; 
     public List<inventorySlotProxy> inventory = new List<inventorySlotProxy>();
 
     // Start is called before the first frame update
