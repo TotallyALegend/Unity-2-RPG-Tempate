@@ -20,6 +20,6 @@ MonoBehaviour:
   - an UNSTOPPABLE mage!
   ResponseOption:
   - text: Yea... sure
-    nextBranch: {fileID: 0}
+    nextBranch: {fileID: 11400000, guid: 797f8c5a210e322468dd6499baad3210, type: 2}
   - text: Oh gosh
-    nextBranch: {fileID: 0}
+    nextBranch: {fileID: 11400000, guid: 1d0eb95c53752a54e816e3b94fa229c7, type: 2}

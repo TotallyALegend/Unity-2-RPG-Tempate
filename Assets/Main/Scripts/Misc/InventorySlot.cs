@@ -14,6 +14,7 @@ public class InventorySlot : MonoBehaviour
     private string itemType;
     private string itemRarity;
     private int itemPrice;
+    public TextMeshPro infoText;
 
     public void InitalizeSelf(int currentIndex, PlayerManager player)
     {
@@ -28,6 +29,11 @@ public class InventorySlot : MonoBehaviour
         {
             indexItem = -1;
             amount = -1;
+        }
+
+        if (infoText == null)
+        {
+            infoText = GameObject.FindwithTag("Info").GetComponent<TextMeshProUGUI>();
         }
     }
 

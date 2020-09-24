@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: ScaredReply
   m_EditorClassIdentifier: 
   dialogueID: 
-  DialogueLines: []
+  DialogueLines:
+  - Haha, that's right
   ResponseOption: []
